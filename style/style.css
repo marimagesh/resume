@@ -1,0 +1,124 @@
+main#main {
+    height: 100vh;
+}
+
+.home {
+    background-image: url("../asset/marimagesh-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center center;
+}
+
+* {
+    color: #eee;
+}
+
+.yellow-txt {
+    color: #ffb400;
+}
+
+.home p {
+    margin: 11px 0 23px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home img {
+    border-radius: 62% !important;
+    border: solid 11px #353535;
+    width: 200px;
+    margin: 20px;
+}
+
+
+/* button */
+
+
+/* Buttons */
+
+.btn {
+    box-shadow: none !important;
+    border-radius: 26px;
+    font-weight: 500;
+    height: 46px;
+    line-height: 46px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 33px;
+    outline: none !important;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+    border: 0;
+    background: #ffb400;
+}
+
+.btn span {
+    position: relative;
+    z-index: 2;
+}
+
+.btn:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 102%;
+    left: -25%;
+    width: 0%;
+    background: #0000;
+    transform: skew(-22deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+
+.btn:hover:before {
+    width: 180%;
+}
+
+.btn.btn-secondary {
+    color: #ffb400;
+    border: solid 1px #ffb400;
+}
+
+.btn.btn-secondary,
+.btn.btn-secondary:after {
+    background: transparent;
+}
+
+.btn.btn-secondary:hover {
+    color: #fff;
+    background-color: #ffb400 !important;
+}
+
+.btn.btn-secondary:before {
+    background: #0000;
+}
+
+.btn i {
+    padding-right: 11px;
+}
+
+.btn:hover {
+    box-shadow: none;
+    color: #fff;
+    background-color: #ffb400 !important;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*  */
+
+@media (max-width: 992px) {
+    .home {
+        background: #1e1e1e;
+    }
+}
