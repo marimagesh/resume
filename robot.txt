@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 User-agent: *
 Allow: /
 
+=======
+User-agent: *
+Allow: /
+
+>>>>>>> 4df16713c3e0e07532beeb59d53015a706af71b1
 Sitemap: http://localhost/resume/robot.txt

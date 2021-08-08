@@ -1,4 +1,4 @@
-main#main {
+    main#main {
     height: 100vh;
 }
 
@@ -296,4 +296,3 @@ main#main {
     left: 7px;
     top: 9px;
     opacity: .8;
-}
